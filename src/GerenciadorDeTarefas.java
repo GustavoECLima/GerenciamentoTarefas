@@ -32,7 +32,6 @@ public class GerenciadorDeTarefas {
     
     
     public boolean atualizarTarefa(int posicao) {
-    	posicao--;
 
     	if(posicao >= 0 && posicao < listaDeTarefas.size()) {
             Tarefa tarefa = listaDeTarefas.get(posicao);
